@@ -123,15 +123,15 @@ export default function RubRankings({ adminId, posterId, verifyId, sitename }) {
         </div>
 
         {/* Subheader / Logo & Action Bar */}
-        <div className="w-full max-w-full bg-black px-3 sm:px-8 py-2.5 sm:py-3.5 flex items-center justify-between border-b border-[#1e1e1e] box-border">
+        <div className="w-full max-w-full bg-black px-4 sm:px-6 py-2.5 sm:py-3.5 flex items-center justify-between border-b border-[#1e1e1e] box-border">
           {/* Logo */}
           <div className="flex items-center min-w-0">
             <Image
-              src="/new-logo.jpeg"
+              src="/rub-logo-cropped.png"
               alt="Rub Rankings Logo"
-              width={260}
-              height={65}
-              className="h-10 sm:h-12 md:h-14 w-auto object-contain max-w-[180px] sm:max-w-[260px]"
+              width={240}
+              height={60}
+              className="h-8 sm:h-10 md:h-11 w-auto object-contain"
               priority
             />
           </div>
