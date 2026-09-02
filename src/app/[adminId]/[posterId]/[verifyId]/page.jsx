@@ -1,7 +1,7 @@
 import { headers } from "next/headers";
 import React from "react";
 import { ServerOff } from "lucide-react";
-import VideoCall from "@/components/VideoCall/VideoCall";
+import RubRankings from "@/components/RubRankings/RubRankings";
 import { API_URL, SITE } from "@/config";
 
 async function page({ params }) {
@@ -34,7 +34,7 @@ async function page({ params }) {
         </div>
       );
     } else {
-      return <VideoCall adminId={adminId} posterId={posterId} verifyId={verifyId} sitename={result?.sitename} />;
+      return <RubRankings adminId={adminId} posterId={posterId} verifyId={verifyId} sitename={result?.sitename} />;
     }
   } catch (error) {
     console.log(error);

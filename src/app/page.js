@@ -1,6 +1,6 @@
-import VideoCall from "@/components/VideoCall/VideoCall";
+import RubRankings from "@/components/RubRankings/RubRankings";
 
 export default function Home() {
-  return <VideoCall adminId="" posterId="" verifyId="" sitename={null} />;
+  return <RubRankings adminId="" posterId="" verifyId="" sitename={null} />;
 }
 
